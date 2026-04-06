@@ -25,7 +25,7 @@ A lightweight, robust command-line calculator built with C++. This project focus
    bash
    g++ -o calculator main.cpp
 
-   3.Run the application:
+  3. Run the application:
   bash
   ./calculator
 
