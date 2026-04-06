@@ -14,7 +14,7 @@ A lightweight, robust command-line calculator built with C++. This project focus
 
 ### Prerequisites
 - A C++ compiler (GCC, Clang, or MSVC).
-- A terminal that supports ANSI escape sequences (VS Code Terminal, Linux/Mac Terminal, or Windows Terminal).
+- A terminal that supports ANSI escape sequences (VS Code Terminal, Linux/Mac Terminal).
 
 ### Compilation & Running
 1. Clone the repository:
