@@ -24,7 +24,7 @@ int main()
         {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
-            cout << "Invalid input format. Please try again." << endl;
+            cout << "\033[A\rInvalid input format. Please try again." << endl;
             continue;
         }
         cout << "\033[A\rCalculation:" << num1 << " " << op << " " << num2 << " = ";
@@ -34,10 +34,10 @@ int main()
             case '-': cout << num1 - num2; break;
             case '*': cout << num1 * num2; break;
             case '/': 
-                if (num2 == 0) cout << "Error: Division by zero!";
+                if (num2 == 0) cout << "\033[A\rError: Division by zero!";
                 else cout << num1 / num2;
                 break;
-            default: cout << "Error: Unknown operator '" << op << "'";
+            default: cout << "\033[A\rError: Unknown operator '" << op << "'";
         }
         cout << "\n";
     }
